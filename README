@@ -1,22 +1,31 @@
-Coupon API:
+#Coupon API - Nivel 2:
 
-Pasos para ejecutar la aplicación:
+##Pasos para ejecutar la aplicación:
 
-Compilar el Proyecto con el siguiente comando:
+##Compilar el Proyecto con el siguiente comando:
 
 mvn clean install
 
-Ejecutar la Aplicación:
+##Ejecutar la Aplicación:
 
 Una vez compilada, ejecutar la aplicación con el siguiente comando:
 
 java -jar target/coupon-0.0.1-SNAPSHOT.jar
 
-Configuración Relevante: (application.properties):
+##Configuración Relevante: (application.properties):
 
 server.port=5000
 mercadolibre_api_root=<RUTA BASE API ML>
 
-Swagger API URL:
+##Swagger API URL:
 http://localhost:5000/swagger-ui/index.html
+
+#Coupon API - Nivel 3
+
+Aplicación deployada en AWS usando ElasticBeanStalk: 
+
+http://coupon-ml-julian-dev.us-east-1.elasticbeanstalk.com/
+
+##Swagger API URL:
+http://coupon-ml-julian-dev.us-east-1.elasticbeanstalk.com/swagger-ui/index.html
 
