@@ -1,0 +1,22 @@
+Coupon API:
+
+Pasos para ejecutar la aplicación:
+
+Compilar el Proyecto con el siguiente comando:
+
+mvn clean install
+
+Ejecutar la Aplicación:
+
+Una vez compilada, ejecutar la aplicación con el siguiente comando:
+
+java -jar target/coupon-0.0.1-SNAPSHOT.jar
+
+Configuración Relevante: (application.properties):
+
+server.port=5000
+mercadolibre_api_root=<RUTA BASE API ML>
+
+Swagger API URL:
+http://localhost:5000/swagger-ui/index.html
+
